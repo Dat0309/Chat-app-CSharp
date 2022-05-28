@@ -14,14 +14,3 @@ D:\Study\Network programming\app-chat\app-chat\obj\Debug\app_chat.LoginForm.reso
 D:\Study\Network programming\app-chat\app-chat\obj\Debug\app_chat.ServerForm.resources
 D:\Study\Network programming\app-chat\app-chat\obj\Debug\app_chat.SignUp.resources
 D:\Study\Network programming\app-chat\app-chat\obj\Debug\app_chat.ClientForm.resources
-E:\App\app-chat\app-chat\obj\Debug\app-chat.csproj.AssemblyReference.cache
-E:\App\app-chat\app-chat\obj\Debug\app-chat.csproj.SuggestedBindingRedirects.cache
-E:\App\app-chat\app-chat\obj\Debug\app_chat.ChatForm.resources
-E:\App\app-chat\app-chat\obj\Debug\app_chat.LoginForm.resources
-E:\App\app-chat\app-chat\obj\Debug\app_chat.Properties.Resources.resources
-E:\App\app-chat\app-chat\obj\Debug\app_chat.ServerForm.resources
-E:\App\app-chat\app-chat\obj\Debug\app_chat.SignUp.resources
-E:\App\app-chat\app-chat\obj\Debug\app-chat.csproj.GenerateResource.cache
-E:\App\app-chat\app-chat\obj\Debug\app-chat.csproj.CoreCompileInputs.cache
-E:\App\app-chat\app-chat\obj\Debug\app-chat.exe
-E:\App\app-chat\app-chat\obj\Debug\app-chat.pdb

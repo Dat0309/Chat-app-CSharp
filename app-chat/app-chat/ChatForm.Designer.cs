@@ -29,27 +29,28 @@
         private void InitializeComponent()
         {
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
-            this.gunaPanel4 = new Guna.UI.WinForms.GunaPanel();
-            this.gunaPanel5 = new Guna.UI.WinForms.GunaPanel();
-            this.gunaPanel3 = new Guna.UI.WinForms.GunaPanel();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
-            this.lbNameChat = new Guna.UI.WinForms.GunaLabel();
-            this.gunaImageButton7 = new Guna.UI.WinForms.GunaImageButton();
-            this.gunaImageButton6 = new Guna.UI.WinForms.GunaImageButton();
-            this.gunaImageButton5 = new Guna.UI.WinForms.GunaImageButton();
-            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaImageButton4 = new Guna.UI.WinForms.GunaImageButton();
             this.gunaImageButton3 = new Guna.UI.WinForms.GunaImageButton();
             this.gunaImageButton2 = new Guna.UI.WinForms.GunaImageButton();
             this.gunaImageButton1 = new Guna.UI.WinForms.GunaImageButton();
             this.gunaCirclePictureBox1 = new Guna.UI.WinForms.GunaCirclePictureBox();
+            this.gunaPanel4 = new Guna.UI.WinForms.GunaPanel();
+            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.gunaPanel5 = new Guna.UI.WinForms.GunaPanel();
+            this.gunaImageButton7 = new Guna.UI.WinForms.GunaImageButton();
+            this.gunaImageButton6 = new Guna.UI.WinForms.GunaImageButton();
+            this.gunaImageButton5 = new Guna.UI.WinForms.GunaImageButton();
+            this.gunaPanel3 = new Guna.UI.WinForms.GunaPanel();
+            this.lbNameChat = new Guna.UI.WinForms.GunaLabel();
+            this.ListChat = new System.Windows.Forms.ListView();
             this.gunaPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).BeginInit();
             this.gunaPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.gunaPanel5.SuspendLayout();
             this.gunaPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // gunaPanel1
@@ -65,125 +66,6 @@
             this.gunaPanel1.Name = "gunaPanel1";
             this.gunaPanel1.Size = new System.Drawing.Size(71, 728);
             this.gunaPanel1.TabIndex = 0;
-            // 
-            // gunaPanel4
-            // 
-            this.gunaPanel4.BackColor = System.Drawing.Color.White;
-            this.gunaPanel4.Controls.Add(this.gunaPictureBox1);
-            this.gunaPanel4.Controls.Add(this.gunaTextBox1);
-            this.gunaPanel4.Controls.Add(this.listView1);
-            this.gunaPanel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaPanel4.Location = new System.Drawing.Point(71, 0);
-            this.gunaPanel4.Name = "gunaPanel4";
-            this.gunaPanel4.Size = new System.Drawing.Size(302, 728);
-            this.gunaPanel4.TabIndex = 3;
-            // 
-            // gunaPanel5
-            // 
-            this.gunaPanel5.BackColor = System.Drawing.Color.White;
-            this.gunaPanel5.Controls.Add(this.gunaImageButton7);
-            this.gunaPanel5.Controls.Add(this.gunaImageButton6);
-            this.gunaPanel5.Controls.Add(this.gunaImageButton5);
-            this.gunaPanel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.gunaPanel5.Location = new System.Drawing.Point(373, 661);
-            this.gunaPanel5.Name = "gunaPanel5";
-            this.gunaPanel5.Size = new System.Drawing.Size(867, 67);
-            this.gunaPanel5.TabIndex = 4;
-            // 
-            // gunaPanel3
-            // 
-            this.gunaPanel3.BackColor = System.Drawing.Color.White;
-            this.gunaPanel3.Controls.Add(this.lbNameChat);
-            this.gunaPanel3.Location = new System.Drawing.Point(373, 0);
-            this.gunaPanel3.Name = "gunaPanel3";
-            this.gunaPanel3.Size = new System.Drawing.Size(867, 68);
-            this.gunaPanel3.TabIndex = 2;
-            // 
-            // listView1
-            // 
-            this.listView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(0, 66);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(302, 662);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
-            // gunaTextBox1
-            // 
-            this.gunaTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(149)))), ((int)(((byte)(255)))));
-            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox1.Location = new System.Drawing.Point(58, 15);
-            this.gunaTextBox1.Name = "gunaTextBox1";
-            this.gunaTextBox1.PasswordChar = '\0';
-            this.gunaTextBox1.Radius = 10;
-            this.gunaTextBox1.SelectedText = "";
-            this.gunaTextBox1.Size = new System.Drawing.Size(221, 36);
-            this.gunaTextBox1.TabIndex = 1;
-            // 
-            // lbNameChat
-            // 
-            this.lbNameChat.AutoSize = true;
-            this.lbNameChat.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNameChat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(149)))), ((int)(((byte)(255)))));
-            this.lbNameChat.Location = new System.Drawing.Point(27, 21);
-            this.lbNameChat.Name = "lbNameChat";
-            this.lbNameChat.Size = new System.Drawing.Size(187, 28);
-            this.lbNameChat.TabIndex = 0;
-            this.lbNameChat.Text = "Tên người chat";
-            // 
-            // gunaImageButton7
-            // 
-            this.gunaImageButton7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaImageButton7.Image = global::app_chat.Properties.Resources.send_2;
-            this.gunaImageButton7.ImageSize = new System.Drawing.Size(40, 40);
-            this.gunaImageButton7.Location = new System.Drawing.Point(806, 8);
-            this.gunaImageButton7.Name = "gunaImageButton7";
-            this.gunaImageButton7.OnHoverImage = null;
-            this.gunaImageButton7.OnHoverImageOffset = new System.Drawing.Point(0, 0);
-            this.gunaImageButton7.Size = new System.Drawing.Size(49, 47);
-            this.gunaImageButton7.TabIndex = 4;
-            // 
-            // gunaImageButton6
-            // 
-            this.gunaImageButton6.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaImageButton6.Image = global::app_chat.Properties.Resources.gallery;
-            this.gunaImageButton6.ImageSize = new System.Drawing.Size(40, 40);
-            this.gunaImageButton6.Location = new System.Drawing.Point(64, 8);
-            this.gunaImageButton6.Name = "gunaImageButton6";
-            this.gunaImageButton6.OnHoverImage = null;
-            this.gunaImageButton6.OnHoverImageOffset = new System.Drawing.Point(0, 0);
-            this.gunaImageButton6.Size = new System.Drawing.Size(49, 47);
-            this.gunaImageButton6.TabIndex = 3;
-            // 
-            // gunaImageButton5
-            // 
-            this.gunaImageButton5.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaImageButton5.Image = global::app_chat.Properties.Resources.carbon_face_satisfied;
-            this.gunaImageButton5.ImageSize = new System.Drawing.Size(40, 40);
-            this.gunaImageButton5.Location = new System.Drawing.Point(6, 8);
-            this.gunaImageButton5.Name = "gunaImageButton5";
-            this.gunaImageButton5.OnHoverImage = null;
-            this.gunaImageButton5.OnHoverImageOffset = new System.Drawing.Point(0, 0);
-            this.gunaImageButton5.Size = new System.Drawing.Size(49, 47);
-            this.gunaImageButton5.TabIndex = 2;
-            // 
-            // gunaPictureBox1
-            // 
-            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox1.Image = global::app_chat.Properties.Resources.search_normal;
-            this.gunaPictureBox1.Location = new System.Drawing.Point(11, 17);
-            this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(34, 32);
-            this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gunaPictureBox1.TabIndex = 2;
-            this.gunaPictureBox1.TabStop = false;
             // 
             // gunaImageButton4
             // 
@@ -248,12 +130,142 @@
             this.gunaCirclePictureBox1.TabStop = false;
             this.gunaCirclePictureBox1.UseTransfarantBackground = false;
             // 
+            // gunaPanel4
+            // 
+            this.gunaPanel4.BackColor = System.Drawing.Color.White;
+            this.gunaPanel4.Controls.Add(this.gunaPictureBox1);
+            this.gunaPanel4.Controls.Add(this.gunaTextBox1);
+            this.gunaPanel4.Controls.Add(this.listView1);
+            this.gunaPanel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaPanel4.Location = new System.Drawing.Point(71, 0);
+            this.gunaPanel4.Name = "gunaPanel4";
+            this.gunaPanel4.Size = new System.Drawing.Size(302, 728);
+            this.gunaPanel4.TabIndex = 3;
+            // 
+            // gunaPictureBox1
+            // 
+            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox1.Image = global::app_chat.Properties.Resources.search_normal;
+            this.gunaPictureBox1.Location = new System.Drawing.Point(11, 17);
+            this.gunaPictureBox1.Name = "gunaPictureBox1";
+            this.gunaPictureBox1.Size = new System.Drawing.Size(34, 32);
+            this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gunaPictureBox1.TabIndex = 2;
+            this.gunaPictureBox1.TabStop = false;
+            // 
+            // gunaTextBox1
+            // 
+            this.gunaTextBox1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(149)))), ((int)(((byte)(255)))));
+            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaTextBox1.Location = new System.Drawing.Point(58, 15);
+            this.gunaTextBox1.Name = "gunaTextBox1";
+            this.gunaTextBox1.PasswordChar = '\0';
+            this.gunaTextBox1.Radius = 10;
+            this.gunaTextBox1.SelectedText = "";
+            this.gunaTextBox1.Size = new System.Drawing.Size(221, 36);
+            this.gunaTextBox1.TabIndex = 1;
+            // 
+            // listView1
+            // 
+            this.listView1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(0, 66);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(302, 662);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // gunaPanel5
+            // 
+            this.gunaPanel5.BackColor = System.Drawing.Color.White;
+            this.gunaPanel5.Controls.Add(this.gunaImageButton7);
+            this.gunaPanel5.Controls.Add(this.gunaImageButton6);
+            this.gunaPanel5.Controls.Add(this.gunaImageButton5);
+            this.gunaPanel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.gunaPanel5.Location = new System.Drawing.Point(373, 661);
+            this.gunaPanel5.Name = "gunaPanel5";
+            this.gunaPanel5.Size = new System.Drawing.Size(867, 67);
+            this.gunaPanel5.TabIndex = 4;
+            // 
+            // gunaImageButton7
+            // 
+            this.gunaImageButton7.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaImageButton7.Image = global::app_chat.Properties.Resources.send_2;
+            this.gunaImageButton7.ImageSize = new System.Drawing.Size(40, 40);
+            this.gunaImageButton7.Location = new System.Drawing.Point(806, 8);
+            this.gunaImageButton7.Name = "gunaImageButton7";
+            this.gunaImageButton7.OnHoverImage = null;
+            this.gunaImageButton7.OnHoverImageOffset = new System.Drawing.Point(0, 0);
+            this.gunaImageButton7.Size = new System.Drawing.Size(49, 47);
+            this.gunaImageButton7.TabIndex = 4;
+            // 
+            // gunaImageButton6
+            // 
+            this.gunaImageButton6.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaImageButton6.Image = global::app_chat.Properties.Resources.gallery;
+            this.gunaImageButton6.ImageSize = new System.Drawing.Size(40, 40);
+            this.gunaImageButton6.Location = new System.Drawing.Point(64, 8);
+            this.gunaImageButton6.Name = "gunaImageButton6";
+            this.gunaImageButton6.OnHoverImage = null;
+            this.gunaImageButton6.OnHoverImageOffset = new System.Drawing.Point(0, 0);
+            this.gunaImageButton6.Size = new System.Drawing.Size(49, 47);
+            this.gunaImageButton6.TabIndex = 3;
+            // 
+            // gunaImageButton5
+            // 
+            this.gunaImageButton5.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaImageButton5.Image = global::app_chat.Properties.Resources.carbon_face_satisfied;
+            this.gunaImageButton5.ImageSize = new System.Drawing.Size(40, 40);
+            this.gunaImageButton5.Location = new System.Drawing.Point(6, 8);
+            this.gunaImageButton5.Name = "gunaImageButton5";
+            this.gunaImageButton5.OnHoverImage = null;
+            this.gunaImageButton5.OnHoverImageOffset = new System.Drawing.Point(0, 0);
+            this.gunaImageButton5.Size = new System.Drawing.Size(49, 47);
+            this.gunaImageButton5.TabIndex = 2;
+            // 
+            // gunaPanel3
+            // 
+            this.gunaPanel3.BackColor = System.Drawing.Color.White;
+            this.gunaPanel3.Controls.Add(this.lbNameChat);
+            this.gunaPanel3.Location = new System.Drawing.Point(373, 0);
+            this.gunaPanel3.Name = "gunaPanel3";
+            this.gunaPanel3.Size = new System.Drawing.Size(867, 68);
+            this.gunaPanel3.TabIndex = 2;
+            // 
+            // lbNameChat
+            // 
+            this.lbNameChat.AutoSize = true;
+            this.lbNameChat.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNameChat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(149)))), ((int)(((byte)(255)))));
+            this.lbNameChat.Location = new System.Drawing.Point(27, 21);
+            this.lbNameChat.Name = "lbNameChat";
+            this.lbNameChat.Size = new System.Drawing.Size(187, 28);
+            this.lbNameChat.TabIndex = 0;
+            this.lbNameChat.Text = "Tên người chat";
+            // 
+            // ListChat
+            // 
+            this.ListChat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(247)))));
+            this.ListChat.HideSelection = false;
+            this.ListChat.Location = new System.Drawing.Point(373, 66);
+            this.ListChat.Name = "ListChat";
+            this.ListChat.Size = new System.Drawing.Size(867, 597);
+            this.ListChat.TabIndex = 5;
+            this.ListChat.UseCompatibleStateImageBehavior = false;
+            // 
             // ChatForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1240, 728);
+            this.Controls.Add(this.ListChat);
             this.Controls.Add(this.gunaPanel5);
             this.Controls.Add(this.gunaPanel4);
             this.Controls.Add(this.gunaPanel3);
@@ -263,12 +275,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChatForm";
             this.gunaPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).EndInit();
             this.gunaPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
             this.gunaPanel5.ResumeLayout(false);
             this.gunaPanel3.ResumeLayout(false);
             this.gunaPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -291,5 +303,6 @@
         private Guna.UI.WinForms.GunaLabel lbNameChat;
         private Guna.UI.WinForms.GunaImageButton gunaImageButton6;
         private Guna.UI.WinForms.GunaImageButton gunaImageButton7;
+        private System.Windows.Forms.ListView ListChat;
     }
 }

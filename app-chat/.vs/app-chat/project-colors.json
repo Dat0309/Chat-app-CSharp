@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6b468b6c-79d4-4d00-a551-963439a31fcd": {
+      "ProjectGuid": "6b468b6c-79d4-4d00-a551-963439a31fcd",
+      "DisplayName": "app-chat",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

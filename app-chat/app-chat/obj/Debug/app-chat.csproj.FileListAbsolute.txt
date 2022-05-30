@@ -14,3 +14,21 @@ D:\Study\Network programming\app-chat\app-chat\obj\Debug\app_chat.LoginForm.reso
 D:\Study\Network programming\app-chat\app-chat\obj\Debug\app_chat.ServerForm.resources
 D:\Study\Network programming\app-chat\app-chat\obj\Debug\app_chat.SignUp.resources
 D:\Study\Network programming\app-chat\app-chat\obj\Debug\app_chat.ClientForm.resources
+D:\Study\Network programming\app-chat\app-chat\obj\Debug\app_chat.ChatForm.resources
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\bin\Debug\app-chat.exe.config
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\bin\Debug\app-chat.exe
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\bin\Debug\app-chat.pdb
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\bin\Debug\server.exe
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\bin\Debug\server.pdb
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\bin\Debug\server.exe.config
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\obj\Debug\app-chat.csproj.AssemblyReference.cache
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\obj\Debug\app-chat.csproj.SuggestedBindingRedirects.cache
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\obj\Debug\app_chat.ChatForm.resources
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\obj\Debug\app_chat.LoginForm.resources
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\obj\Debug\app_chat.Properties.Resources.resources
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\obj\Debug\app_chat.SignUp.resources
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\obj\Debug\app-chat.csproj.GenerateResource.cache
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\obj\Debug\app-chat.csproj.CoreCompileInputs.cache
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\obj\Debug\app-chat.csproj.CopyComplete
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\obj\Debug\app-chat.exe
+E:\NAM3_KY2\Chat-app-CSharp\app-chat\app-chat\obj\Debug\app-chat.pdb

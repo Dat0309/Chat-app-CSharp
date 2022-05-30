@@ -12,6 +12,7 @@ namespace app_chat
 {
     public partial class ChatForm : Form
     {
+        
         public ChatForm()
         {
             InitializeComponent();

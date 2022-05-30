@@ -5,7 +5,17 @@
       "ProjectGuid": "6b468b6c-79d4-4d00-a551-963439a31fcd",
       "DisplayName": "app-chat",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "e6301af4-f446-405f-b895-998c9a176ee8": {
+      "ProjectGuid": "e6301af4-f446-405f-b895-998c9a176ee8",
+      "DisplayName": "server",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

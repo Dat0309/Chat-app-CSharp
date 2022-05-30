@@ -154,5 +154,11 @@
   <ItemGroup>
     <None Include="Resources\send-2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\server\server.csproj">
+      <Project>{E6301AF4-F446-405F-B895-998C9A176EE8}</Project>
+      <Name>server</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

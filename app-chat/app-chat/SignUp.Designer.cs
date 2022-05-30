@@ -34,9 +34,9 @@
             this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.SignUpBtn = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaCirclePictureBox1 = new Guna.UI.WinForms.GunaCirclePictureBox();
-            this.txtName = new Guna.UI.WinForms.GunaTextBox();
-            this.txtAccount = new Guna.UI.WinForms.GunaTextBox();
+            this.txtAcc = new Guna.UI.WinForms.GunaTextBox();
             this.txtPass = new Guna.UI.WinForms.GunaTextBox();
+            this.txtConfirmPass = new Guna.UI.WinForms.GunaTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,7 +62,6 @@
             this.label1.Size = new System.Drawing.Size(165, 18);
             this.label1.TabIndex = 23;
             this.label1.Text = "Bạn đã có tài khoản ?";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // gunaAdvenceButton2
             // 
@@ -131,6 +130,7 @@
             this.SignUpBtn.TabIndex = 19;
             this.SignUpBtn.Text = "Đăng ký";
             this.SignUpBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SignUpBtn.Click += new System.EventHandler(this.SignUpBtn_Click);
             // 
             // gunaCirclePictureBox1
             // 
@@ -143,47 +143,26 @@
             this.gunaCirclePictureBox1.TabIndex = 18;
             this.gunaCirclePictureBox1.TabStop = false;
             this.gunaCirclePictureBox1.UseTransfarantBackground = false;
-            this.gunaCirclePictureBox1.Click += new System.EventHandler(this.gunaCirclePictureBox1_Click);
             // 
-            // txtName
+            // txtAcc
             // 
-            this.txtName.BackColor = System.Drawing.Color.Transparent;
-            this.txtName.BaseColor = System.Drawing.Color.White;
-            this.txtName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtName.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtName.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtName.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtName.Location = new System.Drawing.Point(26, 181);
-            this.txtName.Name = "txtName";
-            this.txtName.PasswordChar = '\0';
-            this.txtName.Radius = 10;
-            this.txtName.SelectedText = "";
-            this.txtName.Size = new System.Drawing.Size(312, 55);
-            this.txtName.TabIndex = 25;
-            this.txtName.Text = "   Tên";
-            // 
-            // txtAccount
-            // 
-            this.txtAccount.BackColor = System.Drawing.Color.Transparent;
-            this.txtAccount.BaseColor = System.Drawing.Color.White;
-            this.txtAccount.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtAccount.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtAccount.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtAccount.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtAccount.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtAccount.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtAccount.Location = new System.Drawing.Point(26, 251);
-            this.txtAccount.Name = "txtAccount";
-            this.txtAccount.PasswordChar = '\0';
-            this.txtAccount.Radius = 10;
-            this.txtAccount.SelectedText = "";
-            this.txtAccount.Size = new System.Drawing.Size(312, 55);
-            this.txtAccount.TabIndex = 26;
-            this.txtAccount.Text = "   Tài khoản";
+            this.txtAcc.BackColor = System.Drawing.Color.Transparent;
+            this.txtAcc.BaseColor = System.Drawing.Color.White;
+            this.txtAcc.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtAcc.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtAcc.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtAcc.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtAcc.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtAcc.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtAcc.Location = new System.Drawing.Point(26, 181);
+            this.txtAcc.Name = "txtAcc";
+            this.txtAcc.PasswordChar = '\0';
+            this.txtAcc.Radius = 10;
+            this.txtAcc.SelectedText = "";
+            this.txtAcc.Size = new System.Drawing.Size(312, 55);
+            this.txtAcc.TabIndex = 25;
+            this.txtAcc.Text = "   Tên";
             // 
             // txtPass
             // 
@@ -196,14 +175,34 @@
             this.txtPass.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
             this.txtPass.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtPass.Location = new System.Drawing.Point(26, 322);
+            this.txtPass.Location = new System.Drawing.Point(26, 251);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '\0';
             this.txtPass.Radius = 10;
             this.txtPass.SelectedText = "";
             this.txtPass.Size = new System.Drawing.Size(312, 55);
-            this.txtPass.TabIndex = 27;
+            this.txtPass.TabIndex = 26;
             this.txtPass.Text = "   Mật khẩu";
+            // 
+            // txtConfirmPass
+            // 
+            this.txtConfirmPass.BackColor = System.Drawing.Color.Transparent;
+            this.txtConfirmPass.BaseColor = System.Drawing.Color.White;
+            this.txtConfirmPass.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtConfirmPass.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtConfirmPass.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtConfirmPass.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtConfirmPass.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtConfirmPass.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtConfirmPass.Location = new System.Drawing.Point(26, 322);
+            this.txtConfirmPass.Name = "txtConfirmPass";
+            this.txtConfirmPass.PasswordChar = '\0';
+            this.txtConfirmPass.Radius = 10;
+            this.txtConfirmPass.SelectedText = "";
+            this.txtConfirmPass.Size = new System.Drawing.Size(312, 55);
+            this.txtConfirmPass.TabIndex = 27;
+            this.txtConfirmPass.Text = "  Xác nhận mật khẩu";
             // 
             // SignUp
             // 
@@ -211,9 +210,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(374, 601);
+            this.Controls.Add(this.txtConfirmPass);
             this.Controls.Add(this.txtPass);
-            this.Controls.Add(this.txtAccount);
-            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtAcc);
             this.Controls.Add(this.lbSignIn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gunaAdvenceButton2);
@@ -236,8 +235,8 @@
         private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton2;
         private Guna.UI.WinForms.GunaAdvenceButton SignUpBtn;
         private Guna.UI.WinForms.GunaCirclePictureBox gunaCirclePictureBox1;
-        private Guna.UI.WinForms.GunaTextBox txtName;
-        private Guna.UI.WinForms.GunaTextBox txtAccount;
+        private Guna.UI.WinForms.GunaTextBox txtAcc;
         private Guna.UI.WinForms.GunaTextBox txtPass;
+        private Guna.UI.WinForms.GunaTextBox txtConfirmPass;
     }
 }

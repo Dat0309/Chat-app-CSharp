@@ -47,8 +47,9 @@
             this.txtAccount.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtAccount.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
             this.txtAccount.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtAccount.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtAccount.FocusedForeColor = System.Drawing.Color.Black;
             this.txtAccount.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAccount.ForeColor = System.Drawing.Color.Black;
             this.txtAccount.Location = new System.Drawing.Point(34, 220);
             this.txtAccount.Name = "txtAccount";
             this.txtAccount.PasswordChar = '\0';
@@ -148,8 +149,9 @@
             this.txtPass.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPass.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
             this.txtPass.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
-            this.txtPass.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(182)))), ((int)(((byte)(182)))));
+            this.txtPass.FocusedForeColor = System.Drawing.Color.Black;
             this.txtPass.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPass.ForeColor = System.Drawing.Color.Black;
             this.txtPass.Location = new System.Drawing.Point(34, 292);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '\0';
